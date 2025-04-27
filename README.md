@@ -1,4 +1,4 @@
-# 🚀 Reddit Trending Post Saver App
+# 🚀 Creator DashBoard
 
 A MERN stack application where users can view top Reddit posts, save them, copy post links to earn credits, and manage their profiles through a personalized dashboard.
 
