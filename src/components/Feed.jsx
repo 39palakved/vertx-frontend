@@ -40,7 +40,7 @@ const Feed = () => {
       }
   
       await axios.post(
-        "http://localhost:5000/api/savepost",
+        "https://vertx-backend.onrender.com/api/savepost",
         {
           postId: post.id,
           title: post.title,
@@ -79,7 +79,7 @@ const Feed = () => {
 
       // Send a request to the backend to increase the user's credits
       await axios.post(
-        "http://localhost:5000/api/share-post", // The backend API to update credits
+        "https://vertx-backend.onrender.com/api/share-post", // The backend API to update credits
         {
           postId: post.id,
         },
