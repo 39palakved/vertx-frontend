@@ -8,7 +8,7 @@ const Savedpost = () => {
     const fetchSavedPosts = async () => {
       try {
         const token = localStorage.getItem("token");
-        const response = await axios.get("http://localhost:5000/api/getsavedposts", {
+        const response = await axios.get("https://vertx-backend.onrender.com/api/getsavedposts", {
           headers: {
             Authorization: `Bearer ${token}`,
           },
