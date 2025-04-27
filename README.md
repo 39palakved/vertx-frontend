@@ -33,10 +33,5 @@ A MERN stack application where users can view top Reddit posts, save them, copy 
 - MongoDB Atlas account (or local MongoDB)
 - Git installed
 
----
 
-### Clone the Repository
 
-```bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
